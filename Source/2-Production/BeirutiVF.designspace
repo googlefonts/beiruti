@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis default="400.0" maximum="900.0" minimum="200.0" name="weight" tag="wght" />
+    </axes>
+    <sources>
+        <source filename="Beiruti-ExtraLight.ufo" name="master_0">
+            <lib copy="1" />
+            <groups copy="1" />
+            <info copy="1" />
+            <location>
+                <dimension name="weight" xvalue="200" />
+            </location>
+        </source>
+        <source filename="Beiruti-Regular.ufo" name="master_1">
+            <lib copy="1" />
+            <groups copy="1" />
+            <info copy="1" />
+            <location>
+                <dimension name="weight" xvalue="400" />
+            </location>
+        </source>
+        <source filename="Beiruti-Black.ufo" name="master_2">
+            <lib copy="1" />
+            <groups copy="1" />
+            <info copy="1" />
+            <location>
+                <dimension name="weight" xvalue="900" />
+            </location>
+        </source>
+    </sources>
+
+    <instances>
+        <instance familyname="Beiruti" filename="temp_output/ExtraLight.ufo" postscriptfontname="Beiruti-ExtraLight" stylename="ExtraLight">
+            <location>
+                <dimension name="weight" xvalue="200" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Beiruti" filename="temp_output/Light.ufo" postscriptfontname="Beiruti-Light" stylename="Light">
+            <location>
+                <dimension name="weight" xvalue="300" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Beiruti" filename="temp_output/Regular.ufo" postscriptfontname="Beiruti-Regular" stylename="Regular">
+            <location>
+                <dimension name="weight" xvalue="400" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Beiruti" filename="temp_output/Medium.ufo" postscriptfontname="Beiruti-Medium" stylename="Medium">
+            <location>
+                <dimension name="weight" xvalue="500" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Beiruti" filename="temp_output/SemiBold.ufo" postscriptfontname="Beiruti-SemiBold" stylename="SemiBold">
+            <location>
+                <dimension name="weight" xvalue="600" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Beiruti" filename="temp_output/Bold.ufo" postscriptfontname="Beiruti-Bold" stylename="Bold">
+            <location>
+                <dimension name="weight" xvalue="700" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Beiruti" filename="temp_output/ExtraBold.ufo" postscriptfontname="Beiruti-ExtraBold" stylename="ExtraBold">
+            <location>
+                <dimension name="weight" xvalue="800" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Beiruti" filename="temp_output/Black.ufo" postscriptfontname="Beiruti-Black" stylename="Black">
+            <location>
+                <dimension name="weight" xvalue="900" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+    </instances>
+</designspace>
