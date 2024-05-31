@@ -4,7 +4,7 @@
         <axis default="400.0" maximum="900.0" minimum="200.0" name="weight" tag="wght" />
     </axes>
     <sources>
-        <source filename="Beiruti-ExtraLight.ufo" name="master_0">
+        <source filename="Beiruti-ExtraLight.ufo.zip" name="master_0">
             <lib copy="1" />
             <groups copy="1" />
             <info copy="1" />
@@ -12,7 +12,7 @@
                 <dimension name="weight" xvalue="200" />
             </location>
         </source>
-        <source filename="Beiruti-Regular.ufo" name="master_1">
+        <source filename="Beiruti-Regular.ufo.zip" name="master_1">
             <lib copy="1" />
             <groups copy="1" />
             <info copy="1" />
@@ -20,7 +20,7 @@
                 <dimension name="weight" xvalue="400" />
             </location>
         </source>
-        <source filename="Beiruti-Black.ufo" name="master_2">
+        <source filename="Beiruti-Black.ufo.zip" name="master_2">
             <lib copy="1" />
             <groups copy="1" />
             <info copy="1" />
