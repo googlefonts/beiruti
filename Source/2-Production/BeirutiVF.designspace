@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis default="400.0" maximum="900.0" minimum="200.0" name="weight" tag="wght" />
+    </axes>
+    <sources>
+        <source filename="Beiruti-ExtraLight.ufo.zip" name="master_0">
+            <lib copy="1" />
+            <groups copy="1" />
+            <info copy="1" />
+            <location>
+                <dimension name="weight" xvalue="200" />
+            </location>
+        </source>
+        <source filename="Beiruti-Regular.ufo.zip" name="master_1">
+            <lib copy="1" />
+            <groups copy="1" />
+            <info copy="1" />
+            <location>
+                <dimension name="weight" xvalue="400" />
+            </location>
+        </source>
+        <source filename="Beiruti-Black.ufo.zip" name="master_2">
+            <lib copy="1" />
+            <groups copy="1" />
+            <info copy="1" />
+            <location>
+                <dimension name="weight" xvalue="900" />
+            </location>
+        </source>
+    </sources>
+
+    <instances>
+        <instance familyname="Beiruti" filename="temp_output/ExtraLight.ufo" postscriptfontname="Beiruti-ExtraLight" stylename="ExtraLight">
+            <location>
+                <dimension name="weight" xvalue="200" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Beiruti" filename="temp_output/Light.ufo" postscriptfontname="Beiruti-Light" stylename="Light">
+            <location>
+                <dimension name="weight" xvalue="300" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Beiruti" filename="temp_output/Regular.ufo" postscriptfontname="Beiruti-Regular" stylename="Regular">
+            <location>
+                <dimension name="weight" xvalue="400" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Beiruti" filename="temp_output/Medium.ufo" postscriptfontname="Beiruti-Medium" stylename="Medium">
+            <location>
+                <dimension name="weight" xvalue="500" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Beiruti" filename="temp_output/SemiBold.ufo" postscriptfontname="Beiruti-SemiBold" stylename="SemiBold">
+            <location>
+                <dimension name="weight" xvalue="600" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Beiruti" filename="temp_output/Bold.ufo" postscriptfontname="Beiruti-Bold" stylename="Bold">
+            <location>
+                <dimension name="weight" xvalue="700" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Beiruti" filename="temp_output/ExtraBold.ufo" postscriptfontname="Beiruti-ExtraBold" stylename="ExtraBold">
+            <location>
+                <dimension name="weight" xvalue="800" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Beiruti" filename="temp_output/Black.ufo" postscriptfontname="Beiruti-Black" stylename="Black">
+            <location>
+                <dimension name="weight" xvalue="900" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+    </instances>
+
+  <lib>
+    <dict>
+      <key>org.statmake.stylespace</key>
+      <dict>
+        <key>axes</key>
+        <array>
+          <dict>
+            <key>name</key>
+            <string>Weight</string>
+            <key>tag</key>
+            <string>wght</string>
+            <key>locations</key>
+            <array>
+              <dict>
+                <key>name</key>
+                <string>ExtraLight</string>
+                <key>value</key>
+                <integer>200</integer>
+              </dict>
+              <dict>
+                <key>name</key>
+                <string>Light</string>
+                <key>value</key>
+                <integer>300</integer>
+              </dict>
+              <dict>
+                <key>name</key>
+                <string>Regular</string>
+                <key>value</key>
+                <integer>400</integer>
+                <key>linked_value</key>
+                <integer>700</integer>
+                <key>flags</key>
+                <array>
+                  <string>ElidableAxisValueName</string>
+                </array>
+              </dict>
+              <dict>
+                <key>name</key>
+                <string>Medium</string>
+                <key>value</key>
+                <integer>500</integer>
+              </dict>
+              <dict>
+                <key>name</key>
+                <string>SemiBold</string>
+                <key>value</key>
+                <integer>600</integer>
+              </dict>
+              <dict>
+                <key>name</key>
+                <string>Bold</string>
+                <key>value</key>
+                <integer>700</integer>
+              </dict>
+              <dict>
+                <key>name</key>
+                <string>ExtraBold</string>
+                <key>value</key>
+                <integer>800</integer>
+              </dict>
+              <dict>
+                <key>name</key>
+                <string>Black</string>
+                <key>value</key>
+                <integer>900</integer>
+              </dict>
+            </array>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+
+</designspace>
